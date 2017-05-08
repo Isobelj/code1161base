@@ -5,11 +5,13 @@ from __future__ import print_function
 
 
 def is_odd(a_number):
+
     """Return True if a_number is odd, and False if a_number is even.
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    pass
+    return(a_number % 2) != 0
+
 
 
 def fix_it(moves=True, should_move=True):
